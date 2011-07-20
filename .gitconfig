@@ -1,0 +1,5 @@
+[user]
+	name = Matt Darnall
+	email = mdarnall@gmail.com
+[http]
+	sslVerify = false

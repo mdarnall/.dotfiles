@@ -1,0 +1,10 @@
+[ui]
+username = mdarnall <mdarnall@gmail.com>
+
+[extensions]
+hgext.bookmarks =
+hggit =
+#prompt = ~/.oh-my-zsh/plugins/hg/prompt.py
+[alias]
+latest = log --limit 5
+
