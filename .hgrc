@@ -1,10 +1,22 @@
 [ui]
-username = mdarnall <mdarnall@gmail.com>
+username = Matt Darnall <mdarnall@gmail.com> 
+merge = tortoisemerge
+ssh = ssh -C
 
 [extensions]
+hgext.convert=
 hgext.bookmarks =
-hggit =
+#hggit = c:\hg-git\hggit
 #prompt = ~/.oh-my-zsh/plugins/hg/prompt.py
+rebase=
+
+[tortoisehg]
+vdiff = tortoisemerge
+
 [alias]
 latest = log --limit 5
+untrack = rm -Af
+ca = commit -Am
 
+[bookmarks]
+track.current = True
