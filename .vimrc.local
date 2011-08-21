@@ -1,0 +1,14 @@
+" , FTL!
+let mapleader = ","
+
+" Looks
+set background=light
+colorscheme solarized
+
+set guifont=Monaco:h16
+
+" Maps 
+
+" bufferNext bufferPrevious 
+nnoremap <Leader>b :bp<CR>
+nnoremap <Leader>f :bn<CR>
