@@ -1,9 +1,9 @@
-" , FTL!
+"  FTL!
 let mapleader = ","
 
 " Looks
-set background=light
-colorscheme solarized
+"set background=light
+colorscheme ir_black 
 
 set guifont=Monaco:h16
 
@@ -12,3 +12,12 @@ set guifont=Monaco:h16
 " bufferNext bufferPrevious 
 nnoremap <Leader>b :bp<CR>
 nnoremap <Leader>f :bn<CR>
+" toggle search highlight
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+" move to start/end of line
+noremap H ^
+" same in visual and normal mode 
+noremap L g_
+
+nnoremap <Leader>w :w<CR>
